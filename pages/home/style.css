@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: #252525;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 4rem;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div img {
+  height: 4em;
+  margin-right: 1rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+.section-one {
+  background-image: url(../../assets/dog01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  padding: 0 17.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one h1 {
+  color: #ffffff;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+.section-one img {
+  height: 7.6rem;
+  margin-bottom: 21rem;
+}
+
+.section-two {
+  background-image: url(../../assets/dog02.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  padding: 12rem 0 12rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-two h1 {
+  color: #3a342f;
+  font-size: 4rem;
+}
+
+.section-two p {
+  color: #3a342f;
+  font-size: 1.7rem;
+  width: 40%;
+  margin: 2rem 0;
+}
+
+.section-two button {
+  width: 15vw;
+  height: 7vh;
+  color: #f4f2f3;
+  background-color: #3a342f;
+  font-size: 1rem;
+  border-radius: 40px;
+}
+
+.section-three {
+  background-image: url(../../assets/dog03.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  padding: 10rem 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  color: #ffffff;
+}
+
+.section-three h1 {
+  font-size: 4rem;
+  width: 15rem;
+}
+
+.section-three p {
+  font-size: 1.7rem;
+  width: 26rem;
+  margin: 2rem 0;
+}
+
+.section-three button {
+  width: 15vw;
+  height: 7vh;
+  color: #3a342f;
+  background-color: #f4f2f3;
+  font-size: 1rem;
+  border-radius: 40px;
+}
+
+.section-four {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14.25rem;
+}
+
+.section-four p {
+  text-align: center;
+  font: italic;
+  color: #fd6a9a;
+  opacity: 1;
+  font-family: "Roboto Serif", serif;
+}
+
+.section-four-img {
+  height: 1.6rem;
+}
+
+footer {
+  display: flex;
+  background-color: #eb4a7b;
+  padding: 5rem 2rem;
+}
+
+.div-footer {
+  margin: 0 2.2rem;
+  text-align: start;
+}
+
+.div-footer h1 {
+  font-size: 24px;
+}
+
+.div-footer h1,
+a {
+  color: #ffffff;
+}
+
+.div-footer li {
+  margin-left: 0;
+}
